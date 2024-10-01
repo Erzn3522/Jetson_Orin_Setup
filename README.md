@@ -165,7 +165,7 @@ sudo apt-get -y update;
 sudo apt-get -y install python3-pip libopenblas-dev;
 ```
 
-### 2- Install Cuda Toolkit
+### 2- Install and Configure Cuda Toolkit
 ```
 sudo apt-get install nvidia-jetpack
 ```
