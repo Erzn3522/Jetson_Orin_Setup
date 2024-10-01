@@ -181,12 +181,12 @@ sudo apt list libcudnn8
 git clone --branch v0.15.1 https://github.com/pytorch/vision torchvision
 cd torchvision
 export BUILD_VERSION=0.15.1
-python3 setup.py install (If you want to install for whole users not only for venv, use this python3 setup.py install --user)
+python3 setup.py install # If you want to install for whole users not only for venv, use this python3 setup.py install --user
 
 7- Install other packages
 ```
 pip3 install opencv-python
-pip3 install ultralytics --no-deps # (If you dont use --no-deps parameter for this command, it will remove the cuda enabled torch libraries)
+pip3 install ultralytics --no-deps # If you dont use --no-deps parameter for this command, it will remove the cuda enabled torch libraries
 pip3 install matplotlib opencv-python>=4.6.0 pandas>=1.1.4 pillow>=7.1.2 psutil py-cpuinfo pyyaml>=5.3.1 requests>=2.23.0 scipy>=1.4.1 seaborn>=0.11.0 tqdm>=4.64.0 ultralytics-thop>=2.0.0
 ```
 
