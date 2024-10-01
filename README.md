@@ -156,6 +156,7 @@ sudo dpkg -i nomachine_8.13.1_1_arm64.deb
 
 ## 7-Cuda and Pytorch installation
 
+![Uygulama Ekran Görüntüsü](https://github.com/Erzn3522/Jetson_Orin_Setup/blob/main/jtop.png)
 This is the most hated part. I sacrifed my days to figure out how can i get out the Cuda hell then finally got it, here :
 
 ### 1- First install Jetpack to device, I install via Nvidia SDK Manager. I choose Jetpack version is 5.1.3
